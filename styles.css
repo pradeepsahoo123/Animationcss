@@ -1,0 +1,39 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: rgb(15, 15, 15);
+    animation-name:  fontAnimation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+}
+@keyframes fontAnimation {
+    0%{
+        font-size: 20px;
+        background-color: rgb(255, 240, 240);
+        border-radius: 203px;
+    }
+    
+    50%{
+        font-size:40px;
+        background-color: rgb(226, 116, 43);
+        border-radius: 3004px;
+    }
+    100%{
+        font-size:52px;
+        background-color: rgb(2, 156, 20);
+        border-radius: 34px;
+
+    }
+}
+
+/* @keyframes colorAnimation{
+    from{
+        background-color: aliceblue;
+    }
+    To{
+        background-color: blueviolet;
+    }
+} */
